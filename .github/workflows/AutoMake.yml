@@ -24,6 +24,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: Drew-Morris.github.io
+          external_repository: drewmorris.info
           publish_branch: master
           publish_dir: ./public
