@@ -7,8 +7,11 @@ cover = ""
 tags = [""]
 keywords = ["", ""]
 description = "Welcome weary traveler. Here I showcase some of my favorite projects and link together all of my online presences. Explore and Enjoy :D"
-showFullContent = false
+showFullContent = true
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
+
+Welcome weary traveler. Here I showcase some of my favorite projects and link
+together all of my online presences. Explore and Enjoy :D
