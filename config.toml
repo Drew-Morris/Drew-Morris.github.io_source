@@ -1,0 +1,4 @@
+baseURL = 'http://Drew-Morris.github.io/'
+languageCode = 'en-us'
+title = 'Drew Morris'
+theme = 'terminal'
