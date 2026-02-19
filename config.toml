@@ -8,19 +8,19 @@ paginate = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "main"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
@@ -59,15 +59,15 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "Drew_Morris_Dev"
+  site = "https://twitter.com/Drew_Moris_Dev"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = ""
     subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    owner = "Drew Morris"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -81,7 +81,7 @@ paginate = 5
     words = "words"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoImage = ""
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -93,6 +93,10 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
